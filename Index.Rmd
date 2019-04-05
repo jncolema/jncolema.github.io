@@ -1,0 +1,23 @@
+---
+title: "My Website"
+author: "Jasmine Coleman"
+date: "April 4, 2019"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+#Welcome to My Website  
+
+
+####Today's Date is
+```{r Date, echo=FALSE}
+paste(format(Sys.Date(), format="%m"),format(Sys.Date(), format="%d"),format(Sys.Date(), format="%Y"),sep = "/")
+```
+
+####The current time is
+```{r Time, echo=FALSE}
+format(Sys.time(), format="%X")
+```
