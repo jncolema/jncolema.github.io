@@ -5,8 +5,4 @@ navbar:
   - text: "Home"
   href: index.html
   - text: "CLT"
-<<<<<<< HEAD
   href:CLT_2.Rmd.html
-=======
-  href:CLT_2.html
->>>>>>> cf0df6867e79abcdac07b38ad15e98fbdc4cddcd
