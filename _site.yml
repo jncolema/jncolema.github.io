@@ -1,0 +1,8 @@
+name: "Simple"
+navbar:
+  title: Simple
+  left:
+  - text: "Home"
+  href: index.html
+  - text: "CLT"
+  href:CLT_2.html
